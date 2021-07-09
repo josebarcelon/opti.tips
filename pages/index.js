@@ -36,6 +36,15 @@ export default function Home() {
             <p className="mt-4 text-xl">Find the best tools for your needs</p>
           </a>
         </div>
+        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+          <a
+            href="#"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-yellow-400 focus:text-yellow-400"
+          >
+            <h3 className="text-2xl font-bold">We're writing a book</h3>
+            <p className="mt-4 text-xl">A book about optimization</p>
+          </a>
+        </div>
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
